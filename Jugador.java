@@ -8,4 +8,16 @@ public class Jugador
         dorsal = dorsalJugador;
         estadio = nombreEstadio;
     }
+
+    public String getNombre() {
+        return nombreJugador;
+    }
+
+    public int getdorsal() {
+        return dorsal;
+    }
+
+    public Equipo getEstadio() {
+        return estadio;
+    }
 }

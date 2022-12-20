@@ -2,4 +2,10 @@
 comment0.target=Jugador
 comment1.params=nombreDelJugador\ dorsalJugador\ nombreEstadio
 comment1.target=Jugador(java.lang.String,\ int,\ Equipo)
-numComments=2
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=int\ getdorsal()
+comment4.params=
+comment4.target=Equipo\ getEstadio()
+numComments=5
