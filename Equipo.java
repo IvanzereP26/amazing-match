@@ -34,4 +34,8 @@ public class Equipo
     public void setanioFundacion(int nuevoanio){
         anioFundacion = nuevoanio;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("El " + nombreEquipo + " fue fundado en el " + anioFundacion);
+    }
 }
