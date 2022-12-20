@@ -20,4 +20,16 @@ public class Jugador
     public Equipo getEstadio() {
         return estadio;
     }
+    
+    public void setNombre (String nuevoJugador){
+        nombreJugador = nuevoJugador;
+    }
+    
+    public void setDorsal (int nuevoDorsal){
+        dorsal = nuevoDorsal;
+    }
+    
+    public void setnombreEstadio (Equipo nuevoNombreEstadio){
+        estadio = nuevoNombreEstadio;
+    }
 }
