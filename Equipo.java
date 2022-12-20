@@ -18,4 +18,20 @@ public class Equipo
         nombreEquipo = nombreDeEquipo;
         anioFundacion = anioDeLaFundacion;
     }
+
+    public String getNombreEquipo(){
+        return nombreEquipo;
+    }
+
+    public int getAnioFundacion(){
+        return anioFundacion;
+    }
+
+    public void setNombre(String nuevoNombre){
+        nombreEquipo = nuevoNombre;
+    }
+
+    public void setanioFundacion(int nuevoanio){
+        anioFundacion = nuevoanio;
+    }
 }
