@@ -32,4 +32,8 @@ public class Jugador
     public void setnombreEstadio (Equipo nuevoNombreEstadio){
         estadio = nuevoNombreEstadio;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println( nombreJugador + " tiene el dorsal número " + dorsal + ", juega en el " + estadio.getNombreEquipo() + " cuya fundación fue en el " +estadio.getAnioFundacion());
+    }
 }
