@@ -1,3 +1,5 @@
 #BlueJ class context
 comment0.target=Jugador
-numComments=1
+comment1.params=nombreDelJugador\ dorsalJugador\ nombreEstadio
+comment1.target=Jugador(java.lang.String,\ int,\ Equipo)
+numComments=2
